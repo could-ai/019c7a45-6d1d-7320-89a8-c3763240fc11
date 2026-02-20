@@ -24,7 +24,7 @@ class ResumeScreen extends StatelessWidget {
                     radius: 60,
                     backgroundColor: Theme.of(context).colorScheme.primary,
                     child: Text(
-                      'CE',
+                      'E',
                       style: TextStyle(
                         fontSize: 40,
                         fontWeight: FontWeight.bold,
@@ -34,7 +34,7 @@ class ResumeScreen extends StatelessWidget {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Chasi Evy',
+                    'Evu',
                     style: Theme.of(context).textTheme.headlineMedium?.copyWith(
                           fontWeight: FontWeight.bold,
                           color: Colors.black87,
@@ -51,7 +51,7 @@ class ResumeScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      _buildContactIcon(Icons.email, 'mailto:chasi@example.com'),
+                      _buildContactIcon(Icons.email, 'mailto:evu@example.com'),
                       const SizedBox(width: 16),
                       _buildContactIcon(Icons.phone, 'tel:+1234567890'),
                       const SizedBox(width: 16),
